@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <div>
       <GlobalStyles />
-      <Component {...pageProps} />;
+      <Component {...pageProps} />
     </div>
   );
 }
